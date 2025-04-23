@@ -1,0 +1,608 @@
+
+/* p{
+    font-size: 16px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+h2{
+    font-size: 40px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@300;400;500;700&display=swap');
+
+/* Base Styles */
+body {
+    font-family: "Alfa Slab One";
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Alfa Slab One";
+  color: #3d2514;
+}
+h2{
+    font-size: 40px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+} 
+p{
+    font-size: 16px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.bg-warning{
+    background-color: #FFC045 !important;
+}
+/* Navbar */
+.navbar{
+    width: 100%;
+}
+.navbar-brand img {
+    width: 60%;
+    max-width: 60%;
+}
+.nav-link {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 1000;
+}
+.nav-link:hover {
+    background-color: #3D2514 !important;
+    color: #FFC045 !important;
+    border-radius: 6px;
+}
+
+
+.hero-section{
+    background-color: #FFC045;
+    padding: 4% 15%;
+}
+.hero-section img{
+    width: 100%;
+}
+.hero-p{
+    border: #3D2514 dashed 2px;
+    width: fit-content;
+    padding: 5px;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-self: left;
+}
+.hero-h2{
+    width: fit-content;
+    padding: 0px;
+    font-size: 70px;
+    text-shadow: 2px 2px #ffffff;
+    justify-self: left;
+}
+.hero-span{
+    font-size: 50px;
+    text-shadow: 1px 1px #ffffff;
+
+}
+
+
+/*     next section for three burgers    Grid   */
+/*     next section for three burgers    Grid   */
+/*     next section for three burgers    Grid   */
+
+
+.tree-burger-section {
+    text-align: center;
+    padding: 60px 10%;
+
+}
+
+.three-burger {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Section Styling */
+.three-burger .section-1,
+.three-burger .section-2 
+{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    border-radius: 10px;
+    padding: 5%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.three-burger .section-1 {
+    min-height: 400px; 
+}
+
+.three-burger .section-2 {
+    min-height: 180px; 
+}
+
+.three-burger .left-section {
+    grid-row: span 2;
+    background-image: url("../images/Burger-Image.png");
+}
+
+.three-burger .right-top {
+    background-image: url("../images/banner-image2.png");
+}
+
+.three-burger .right-bottom {  /* corrected from right-bottum */
+    background-image: url("../images/banner-image3.png");
+}
+
+/* Text Styling */
+.three-burger h2 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    line-height: 1.4;
+    padding: 10px;
+    border-radius: 5px;
+}
+.tree-durger-span{
+    font-size: 10px;
+}
+
+    /*   Choose & and Enjoy  Section  */
+.chhoose__enjoy{
+   text-align:  center;
+
+}
+.chhoose__enjoy .p1 {
+    background-color:#FFC045;
+    color: #f74545;
+    width: fit-content;
+    padding: 10px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;  /* Adjusted to a valid range */
+    transition: background-color 0.5s ease, color ;
+}
+
+.chhoose__enjoy .p1:hover {
+    background-color: #f74545;
+    color: #FFD434;
+    transition-delay: 0.3s;  /* Reduced delay for better user experience */
+}
+
+.chhoose__enjoy .h2 {
+    color:#3D2514;
+    text-transform: uppercase;
+    font-weight: 400;  
+}
+.chhoose__enjoy .p2{
+    color:#3D2514;
+    font-size: 12px;
+    font-weight: 300;
+    width: 80%;  
+}
+/*    next section for three burgers      */
+                   /*    next section for three burgers      */
+                                      /*    next section for three burgers      */
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 100px;
+}
+
+.item {
+    text-align: center;
+    width: 25%;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu h3{
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+.menu p{
+    font-size: 10px;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+.order-btn {
+    background-color: rgb(230, 19, 19);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 300;
+
+}
+
+.order-btn:hover {
+    background-color: rgb(189, 8, 8);
+}
+
+/*    Upcoming  Events   Section  CSs */
+.event {
+
+    padding: 50px 10%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text {
+    width: 45%;
+text-align: start;
+padding-top: 30px;
+}
+.event-p1{
+    font-weight: 700;
+    color:#3D2514;
+}
+.event-h3{
+
+    color:#3D2514;
+}
+.event-p2{
+    font-weight: 500;
+    font-size: 12px;
+    color:#3D2514;
+}
+.right-img {
+    width: 45%;
+}
+
+.right-img img {
+    max-width: 100%;
+    margin: 10px 10px;
+}
+
+/* 
+        Forms next section 
+                 Forms next section 
+          Forms next section  */
+.booking-section{
+    background-image: url(../images/burger-book-bg.png);
+    padding: 12% 15%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+.booking-content{
+    margin-top: -10%;
+}
+.booking-content .p1{
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: #3D2514;
+    text-transform: uppercase;
+}
+
+.booking-content .h2{
+    color: #3D2514;
+    line-height: 0%;
+    padding-bottom: 1%;
+}
+
+
+.form-filds {
+    width: 35%;
+    font-family: "Montserrat";
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #686767;
+    border-radius: 4px;
+    margin-left: 2%;
+    font-size: 12px;
+    background-color: #3d251400;
+    font-weight: 900 ;
+    color: #333;
+
+    box-shadow: 1px 1px #333 ;
+}
+#date{
+    color: rgb(0, 0, 0) !important;
+}
+.form-filds:hover {
+    border-color: #e61313; 
+    box-shadow: 0 0 5px rgba(230, 19, 19, 0.5);
+    transition: all 0.3s ease;
+}
+.booking-btn {
+    background-color: rgb(230, 19, 19);
+    color: white;
+    font-family: "Alfa Slab One";
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.booking-btn:hover {
+    background-color: rgb(189, 8, 8);
+}
+/*   Footer   Section  CSS   */
+
+footer{
+    width: 100%;
+    padding: 0px 15%;
+    box-sizing: border-box;
+}
+.footer-div-grid{
+    background-image: url(../images/footer-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.div-1{
+    flex: 1 1 40%;
+    padding: 20px 0;
+}
+.div-1 img{
+    width: 90%;
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.div-1 p{
+    color: #ffffff;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.div-1 a{
+    text-decoration: none;
+}
+
+.div-2, .div-3{
+    flex: 1 1 25%;
+    padding:20px 0;
+}
+
+.div-2 h4, .div-3 h4{
+    color: white;
+    font-family: "Montserrat";
+    margin-bottom: 10px;}
+.div-2 a, .div-3 a{
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    font-family: "Montserrat";
+    margin-bottom: 10px;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+.div-1 a:hover,
+.div-2 a:hover,
+.div-3 a:hover {
+    text-decoration: underline;
+}
+/* ===== Media Queries for Responsiveness ====== */
+
+/* Large devices/tablets landscape */
+
+
+        @media (max-width: 991px) {
+    .navbar{
+    width: 100%;
+}
+.nav-link{
+    padding-left: 20px;
+}
+    .tree-burger-section {
+        padding: 40px 5%;
+    }
+    /* Slightly reduce section heights */
+    .three-burger .section-1 {
+        min-height: 350px;
+    }
+    .three-burger .section-2 {
+        min-height: 150px;
+    }
+          /*   css for menu three burgers for small screens  */
+.menu{
+    padding: 10px 20px;
+}
+.item {
+width: 90%;
+padding-left: 10px;
+}
+.hero-h2{
+    font-size: 50px;
+}
+
+.hero-p{
+    font-size: 11px;
+}
+
+.event-h2{
+    margin-top: -20px;
+    font-size: 20px;
+}
+.event-p2{
+    font-size: 10px;
+}
+    .booking-section {
+        background-position: center center;
+   background-size: cover;
+    }
+
+
+}
+
+/* Medium devices/tablets portrait */
+                     @media (max-width: 767px) {
+    .hero-h2{
+        padding-left: 20px;
+        font-size: 50px;
+        justify-self: left;
+    }
+
+    .hero-p{
+        font-size: 12px;
+        justify-self: left;
+    }
+    .hero-section img{
+        width: 50%;
+    }
+.tree-burger-section {
+        padding: 30px 5%;
+    }
+    /* Stack grid columns */
+    .three-burger {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    /* Remove grid row spanning */
+    .three-burger .left-section {
+        grid-row: auto;
+    }
+    /* Further adjust section heights for mobile */
+    .three-burger .section-1 {
+        min-height: 300px;
+    }
+    .three-burger .section-2 {
+        min-height: 120px;
+    }
+
+ .form-filds {
+        width: 90%;
+        margin-left: 0;
+}
+     
+      /*   css for menu three burgers for small screens  */
+.menu{
+    padding: 10px 20px;
+}
+.item {
+width: 90%;
+padding-left: 10px;
+}
+.right-img {
+    width: 60%;
+}
+.event-p1{
+    font-size: 9px;
+}
+.event-p2{
+    font-size: 9px;
+
+}
+.event-h2{
+    font-size: 15px;
+    margin-top: -15px;
+}
+.booking-section {
+    background-position: center center;
+    background-size: contain;
+}
+
+
+.div-1 p{
+
+    font-size: 10px;
+}
+
+.div-2 h4, .div-3 h4{
+    font-size: 16px;
+}
+.div-2 a, .div-3 a{
+    font-size: 12px;
+}
+}
+
+/* Small devices */
+                @media (max-width: 575px) {
+    .navbar{
+        width: 90%;
+        padding-left: 20px;
+    }
+    .hero-h2{
+        font-size: 45px;
+    }
+
+    .hero-p{
+        font-size: 11px;
+        justify-self: left;
+    }
+    .hero-span{
+        font-size: 35px;
+    }
+    .three-burger h2 {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    /*   css for menu three burgers for small screens  */
+    .menu{
+      display: block;
+    }
+.item {
+    width: 100%;
+    padding: 20px 30px 30px;
+}
+.item img {
+    width: 80%;
+}
+.right-img {
+    width: 60%;
+}
+.event-p1{
+    font-size: 7px;
+}
+.event-p2{
+    font-size: 7px;
+
+}
+.event-h2{
+    font-size: 12px;
+    margin-top: -15px;
+}
+.booking-section {
+    background-position: center center;
+    background-size: 100% auto;
+}
+}
